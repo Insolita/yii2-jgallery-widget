@@ -1,0 +1,19 @@
+{
+	"name": "insolita/yii2-jgallery-widget",
+	"description": "http://plugins.jquery.com/jgallery/",
+	"type": "yii2-extension",
+	"keywords": ["yii2","extension"],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "insolita",
+			"email": "donnainsolita@gmail.com"
+		}
+	],
+
+	"autoload": {
+		"psr-4": {
+			"insolita\\jgallery\\": ""
+		}
+	}
+}
