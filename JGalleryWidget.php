@@ -9,7 +9,7 @@ namespace insolita\jgallery;
  * Time: 0:25
  */
 
-class JGAlleryWidget extends \yii\base\Widget{
+class JGalleryWidget extends \yii\base\Widget{
 
     /***
      * @var string $selector initial selector
