@@ -28,4 +28,19 @@ Usage
 Once the extension is installed, simply use it in your code by  :
 
 ```php
-<?= \insolita\jgallery\AutoloadExample::widget(); ?>```
+
+<?php echo \insolita\jgallery\JGAlleryWidget::widget([
+            'selector'=>'.gallery',
+            'pluginOptions'=>[
+                'mode'=>'full-screen',
+                'thumbType'=>'image',
+                'autostart'=>true,
+                'canClose'=>false,
+                'backgroundColor'=>'#000',
+                'textColor'=>'#fff'
+            ]
+        ])?>
+
+```
+
+More documentation aboot jGallery http://jgallery.jakubkowalczyk.pl/

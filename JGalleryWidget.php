@@ -1,4 +1,7 @@
 <?php
+namespace insolita\jgallery;
+
+
 /**
  * Created by PhpStorm.
  * User: Insolita

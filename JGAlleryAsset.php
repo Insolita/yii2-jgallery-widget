@@ -1,10 +1,5 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Insolita
- * Date: 24.08.14
- * Time: 0:26
- */
+namespace insolita\jgallery;
 
 class JGAlleryAsset extends \yii\web\AssetBundle{
     public $sourcePath = '@vendor/insolita/yii2-jgallery-widget/assets/jgallery';
