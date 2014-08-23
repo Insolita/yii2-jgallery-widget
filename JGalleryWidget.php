@@ -31,6 +31,6 @@ class JGalleryWidget extends \yii\base\Widget{
         $options =!empty($this->pluginOptions)?\yii\helpers\Json::encode($this->pluginOptions):'';
         $script .= "$('$this->selector').jGallery($options);" . PHP_EOL;
         $view->registerJs($script);
-        JGAlleryAsset::register($view);
+        JGalleryAsset::register($view);
     }
 }
