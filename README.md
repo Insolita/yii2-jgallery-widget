@@ -30,7 +30,7 @@ Once the extension is installed, simply use it in your code by  :
 ```php
 
 <?php echo \insolita\jgallery\JGalleryWidget::widget([
-            'selector'=>'.gallery',
+            'selector'=>'#gallery',
             'pluginOptions'=>[
                 'mode'=>'full-screen',
                 'thumbType'=>'image',
