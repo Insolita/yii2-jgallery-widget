@@ -4,7 +4,10 @@ namespace insolita\jgallery;
 class JGalleryAsset extends \yii\web\AssetBundle{
     public $sourcePath = '@vendor/insolita/yii2-jgallery-widget/assets/jgallery';
 
-    public $css = [];
+    public $css = [
+        'css/font-awesome.min.css'
+    ];
+
     public $js=[];
 
     public $depends = [
